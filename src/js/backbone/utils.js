@@ -125,7 +125,8 @@ function gotoPage (page) {
   document.body.classList.remove('page-transition-blur-out')
 
   setTimeout(() => {
-    if (settings.get('ads') === 'true') {
+    // if (settings.get('ads') === 'true') {
+    if(false){
       switch (page) {
         case 'home':
           window.location.assign('/ad.html#home')
